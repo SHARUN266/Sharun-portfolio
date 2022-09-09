@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Sharun-portfolio/static/css/main.c3fe3336.css",
-    "main.js": "/Sharun-portfolio/static/js/main.f5e507d9.js",
+    "main.css": "/Sharun-portfolio/static/css/main.dffbe3ab.css",
+    "main.js": "/Sharun-portfolio/static/js/main.e92ff3ee.js",
     "static/js/787.128fc6e9.chunk.js": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/common-bg.svg": "/Sharun-portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/Sharun-portfolio/index.html",
-    "main.c3fe3336.css.map": "/Sharun-portfolio/static/css/main.c3fe3336.css.map",
-    "main.f5e507d9.js.map": "/Sharun-portfolio/static/js/main.f5e507d9.js.map",
+    "main.dffbe3ab.css.map": "/Sharun-portfolio/static/css/main.dffbe3ab.css.map",
+    "main.e92ff3ee.js.map": "/Sharun-portfolio/static/js/main.e92ff3ee.js.map",
     "787.128fc6e9.chunk.js.map": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3fe3336.css",
-    "static/js/main.f5e507d9.js"
+    "static/css/main.dffbe3ab.css",
+    "static/js/main.e92ff3ee.js"
   ]
 }
