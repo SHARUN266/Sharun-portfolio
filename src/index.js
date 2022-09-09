@@ -13,6 +13,11 @@ AOS.init({
     delay: 50,
     once: false
 });
+AOS.refresh({
+  offset: 2000,
+  delay: 50,
+  once: false
+})
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const theme=extendTheme({
   colors:{
