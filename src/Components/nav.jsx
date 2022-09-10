@@ -35,7 +35,7 @@ export default function Simple() {
                 <Avatar
                   size={"md"}
                   src={
-                    "/public/photostudio-3-designify.png"
+                    "./photostudio-3-designify.svg"
                   }
                 />
               </MenuButton>

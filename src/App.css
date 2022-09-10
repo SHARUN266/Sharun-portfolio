@@ -71,3 +71,30 @@
   z-index: -1;
   transition: transform .9s ease;
 }
+.heading-sec__main {
+  display: block;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  position: relative; }
+  .heading-sec__main--lt {
+    color: #fff; }
+    .heading-sec__main--lt::after {
+      content: '';
+      background: #fff !important; }
+  .heading-sec__main::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #0062b9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-sec__main::after {
+        top: calc(100% + 1.2rem); } }
