@@ -1,6 +1,8 @@
-import { Box, Heading, Flex, Button } from "@chakra-ui/react";
+import { Box, Heading, Flex, Button,Image } from "@chakra-ui/react";
 import React from "react";
 import Typewriter from "typewriter-effect";
+import ClickMe from "./Button";
+
 export default function HomeHero() {
   return (
     <Box id="homeHero" display={"flex"} alignItems="center">
@@ -9,7 +11,8 @@ export default function HomeHero() {
         fontSize={["2rem", "4rem"]}
         w="90%"
         m="auto"
-        direction={["row", "column"]}
+        justifyContent={'space-between'}
+        direction={["row", "columns"]}
       >
         <Box p="2rem" textAlign={"justify"}>
           <Box data-aos="fade-right"
@@ -20,7 +23,7 @@ export default function HomeHero() {
 
           <Heading
           data-aos="fade-right"
-          data-aos-offset="400"
+          data-aos-offset="300"
           data-aos-easing="ease-in-sine"
            textShadow={"-2px -2px 11px rgba(163, 156, 150, 0.83);"}
             fontWeight="extrabold"
@@ -30,7 +33,7 @@ export default function HomeHero() {
             sharun
           </Heading>
 
-          <Box fontSize={["1rem", "2rem"]}>
+          <Box fontSize={["1rem", "2rem"]} >
             <Typewriter
               options={{
                 strings: ["Full Stack Developer", "MERN stack developer"],
@@ -39,7 +42,11 @@ export default function HomeHero() {
               }}
             />
           </Box>
+          <ClickMe/>
         </Box>
+        <Box w="40%">
+        <Image h="100%" w="100%" src="./photostudio-3-designify.svg" alt="my-hero"/>
+      </Box>
       </Flex>
     </Box>
   );

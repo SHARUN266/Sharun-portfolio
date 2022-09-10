@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Courgette&family=Pacifico&family=Sintony:wght@700&display=swap');
 *,
 *::after,
 *::before {
@@ -45,4 +46,28 @@
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#button::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  
+}
+
+#button:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+  
+}
+#button::before{
+  content: " ";
+  border-radius: 6px;
+ 
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .9s ease;
 }
