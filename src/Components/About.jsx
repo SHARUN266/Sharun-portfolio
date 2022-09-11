@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import logo from "./RoundeImage.png"
 export default function About() {
   return (
-    <Box h="80vh"  alignItems={'center'}>
+    <Box h={["auto","auto","80vh"]} p="1rem"  alignItems={'center'}>
         <Heading className="heading-sec__main" mt="5%">ABOUT ME</Heading>
       <Flex   w="80%" h="60%"   alignItems={'center'} justifyContent={'space-between'} m="auto"  direction={["column","column","row"]} gap={['4rem','3rem','0rem']}>
         <Box mt={["7%","3%","2%"]} display={'flex'} justifyContent={'center'} w="40%" h="80%">

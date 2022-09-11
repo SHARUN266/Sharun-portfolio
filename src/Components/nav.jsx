@@ -22,7 +22,7 @@ export default function Simple() {
 
   return (
     <>
-      <Box bg={useColorModeValue("white", "white")} position={'sticky'} top={0} zIndex={100} shadow={'md'} px={8}>
+      <Box bg={useColorModeValue("white", "white")} position={'sticky'} top={0} zIndex={100} shadow={'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;'} px={8}>
         <Flex h="5rem" alignItems={"center"} justifyContent={"space-between"}>
           <Flex alignItems={"center"}>
             <Menu>

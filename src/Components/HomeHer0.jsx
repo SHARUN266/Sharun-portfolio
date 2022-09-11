@@ -6,14 +6,15 @@ import logo from "./gif2.gif"
 
 export default function HomeHero() {
   return (
-    <Box id="homeHero" display={"flex"} alignItems="center">
+    <Box id="homeHero" h={["auto","auto","80vh"]}  display={"flex"} alignItems="center">
       <Flex
         className="headingPrimary"
         fontSize={["2rem", "4rem"]}
         w="90%"
         m="auto"
+        align={'center'}
         justifyContent={'space-between'}
-        direction={["row", "columns"]}
+        direction={["column","column", "row"]}
       >
         <Box p="2rem" textAlign={"justify"}>
           <Box data-aos="fade-right"
@@ -45,8 +46,8 @@ export default function HomeHero() {
           </Box>
           <ClickMe/>
         </Box>
-        <Box mt="5%" w="40%">
-        <Image h="80%" w="100%" src={logo} alt="my-hero"/>
+        <Box mt="5%" w={["90%","90%","40%"]}>
+        <Image borderRadius={'lg'}  h="80%" w="100%" src={logo} alt="my-hero"/>
       </Box>
       </Flex>
     </Box>
