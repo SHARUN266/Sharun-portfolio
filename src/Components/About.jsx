@@ -1,18 +1,18 @@
 import { Box, Flex, Text, Image, Heading } from "@chakra-ui/react";
 import React from "react";
 import Typewriter from "typewriter-effect";
-
+import logo from "./RoundeImage.png"
 export default function About() {
   return (
     <Box h="80vh"  alignItems={'center'}>
         <Heading className="heading-sec__main" mt="5%">ABOUT ME</Heading>
-      <Flex  w="80%" h="60%"   alignItems={'center'} justifyContent={'space-between'} m="auto">
-        <Box display={'flex'}  justifyContent={'center'} w="25%" h="80%">
-          <Image h="100%" w="100%" borderRadius={'rounded'} src="https://raw.githubusercontent.com/SHARUN266/umage/main/RoundeImage.png?token=GHSAT0AAAAAABVPBKQICWEEAUAOJU6SY4QMYY4ZJVA" alt="sharun" />
+      <Flex   w="80%" h="60%"   alignItems={'center'} justifyContent={'space-between'} m="auto"  direction={["column","column","row"]} gap={['4rem','3rem','0rem']}>
+        <Box mt={["7%","3%","2%"]} display={'flex'} justifyContent={'center'} w="40%" h="80%">
+          <Image  h="100%" w={["100%","100%","67%"]} borderRadius={'rounded'} src={logo} alt="sharun" />
         </Box>
         
-        <Box  w="50%" textAlign={'justify'} >
-          <Box className="about__content-main">
+        <Box  w={["100%","100%","50%"]} textAlign={'justify'} >
+          <Box  className="about__content-main">
             <Box fontWeight={'bold'} fontSize='2xl'>
             <Typewriter
               options={{
@@ -22,7 +22,7 @@ export default function About() {
               }}
             />
             </Box>
-            <Box mt="2%"  className="about__content-details" >
+            <Box mt="2%"  >
               <Text fontSize={'18px'}   >
                 Hey! It's
                 <strong> Sharun </strong>

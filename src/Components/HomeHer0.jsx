@@ -2,6 +2,7 @@ import { Box, Heading, Flex, Button,Image } from "@chakra-ui/react";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import ClickMe from "./Button";
+import logo from "./gif2.gif"
 
 export default function HomeHero() {
   return (
@@ -44,8 +45,8 @@ export default function HomeHero() {
           </Box>
           <ClickMe/>
         </Box>
-        <Box w="40%">
-        <Image h="100%" w="100%" src="./photostudio-3-designify.svg" alt="my-hero"/>
+        <Box mt="5%" w="40%">
+        <Image h="80%" w="100%" src={logo} alt="my-hero"/>
       </Box>
       </Flex>
     </Box>

@@ -13,7 +13,8 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-
+// import  {logo1}  from "./elements";
+import logo from './photostudio-3-designify.png';
 const Links = ["HOME", "ABOUT", "PROJECTS", "CONTACT"];
 
 export default function Simple() {
@@ -21,7 +22,7 @@ export default function Simple() {
 
   return (
     <>
-      <Box bg={useColorModeValue("white", "white")} shadow={'md'} px={8}>
+      <Box bg={useColorModeValue("white", "white")} position={'sticky'} top={0} zIndex={100} shadow={'md'} px={8}>
         <Flex h="5rem" alignItems={"center"} justifyContent={"space-between"}>
           <Flex alignItems={"center"}>
             <Menu>
@@ -35,7 +36,7 @@ export default function Simple() {
                 <Avatar
                   size={"md"}
                   src={
-                    "./photostudio-3-designify.svg"
+                    logo
                   }
                 />
               </MenuButton>
