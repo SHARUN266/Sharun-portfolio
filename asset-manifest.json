@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Sharun-portfolio/static/css/main.5b0c8630.css",
-    "main.js": "/Sharun-portfolio/static/js/main.28c1f979.js",
+    "main.css": "/Sharun-portfolio/static/css/main.5f487d08.css",
+    "main.js": "/Sharun-portfolio/static/js/main.47047ed1.js",
     "static/js/787.128fc6e9.chunk.js": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/gif2.gif": "/Sharun-portfolio/static/media/gif2.bb40340f165929162262.gif",
     "static/media/photostudio-3-designify.png": "/Sharun-portfolio/static/media/photostudio-3-designify.dba6c3ee90b82303c5c8.png",
     "static/media/RoundeImage.png": "/Sharun-portfolio/static/media/RoundeImage.3e450d127caf27f706df.png",
     "static/media/common-bg.svg": "/Sharun-portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/Sharun-portfolio/index.html",
-    "main.5b0c8630.css.map": "/Sharun-portfolio/static/css/main.5b0c8630.css.map",
-    "main.28c1f979.js.map": "/Sharun-portfolio/static/js/main.28c1f979.js.map",
+    "main.5f487d08.css.map": "/Sharun-portfolio/static/css/main.5f487d08.css.map",
+    "main.47047ed1.js.map": "/Sharun-portfolio/static/js/main.47047ed1.js.map",
     "787.128fc6e9.chunk.js.map": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b0c8630.css",
-    "static/js/main.28c1f979.js"
+    "static/css/main.5f487d08.css",
+    "static/js/main.47047ed1.js"
   ]
 }
