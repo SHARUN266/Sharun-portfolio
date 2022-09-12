@@ -9,10 +9,8 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 import { extendTheme } from "@chakra-ui/react";
 AOS.init({
-  offset: 2000,
-  delay: 50,
-  once: false,
-});
+  duration: 1200,
+})
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const theme = extendTheme({

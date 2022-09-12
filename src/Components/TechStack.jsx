@@ -3,9 +3,10 @@ import React from "react";
 import { MySkills } from "./logos";
 import { Icon } from "@iconify/react";
 import Logo from "./Logo2";
+
 export default function TechStack() {
   return (
-    <Box h={["auto","auto","100vh"]} >
+    <Box id="bg2"  p="2rem 0rem" h={["auto","auto","100vh"]}  >
       <Heading className="heading-sec__main" mt="5%">
         {" "}
         tech stacks{" "}
@@ -18,7 +19,7 @@ export default function TechStack() {
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        <Box fontSize={"2xl"} textAlign={"justify"} w="45%">
+        <Box data-aos="fade-right" fontSize={"2xl"} textAlign={"justify"} w="45%">
           {MySkills.details.map((elem) => (
             <Text mt="5%" fontWeight={400}>
               ⚡{elem}
@@ -26,7 +27,9 @@ export default function TechStack() {
           ))}
         </Box>
         <Box w="50%">
-          <Heading>{MySkills.title}</Heading>
+          <Heading data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">{MySkills.title}</Heading>
           <SimpleGrid
             alignItems={"center"}
             mt="10%"
@@ -35,7 +38,7 @@ export default function TechStack() {
             gap="3rem"
           >
             {MySkills.logos.map((elem) => (
-              <Box  cursor="pointer" fontSize={['2xl','5xl']} gl    >
+              <Box data-aos="fade-left" cursor="pointer" fontSize={['2xl','5xl']} gl    >
                <Logo
                key={elem.id}
                name={elem.name}

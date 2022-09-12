@@ -104,10 +104,30 @@
     top: calc(100% + 1.2rem);
   }
 }
-#hide{
+#hide {
   display: none;
 }
-#myIcon:hover + #hide{
+#myIcon:hover + #hide {
   display: block;
   color: red;
+}
+#bg2{
+  background: linear-gradient(
+    
+    rgba(253, 250, 250, 0.646),
+    rgba(254, 255, 255, 0.89)
+  ),
+  url(./shapes-bg-color.webp);
+  background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#bg {
+  background: linear-gradient(
+    
+      rgba(253, 250, 250, 0.646),
+      rgba(254, 255, 255, 0.89)
+    ),
+    url(./bg-png.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
 }
