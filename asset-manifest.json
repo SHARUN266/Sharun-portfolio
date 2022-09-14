@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Sharun-portfolio/static/css/main.6e5ef5b2.css",
-    "main.js": "/Sharun-portfolio/static/js/main.db38d3af.js",
+    "main.css": "/Sharun-portfolio/static/css/main.d4188a4b.css",
+    "main.js": "/Sharun-portfolio/static/js/main.30132bf4.js",
     "static/js/787.128fc6e9.chunk.js": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/project-png.webp": "/Sharun-portfolio/static/media/project-png.fba4ecb2c70ba2945b91.webp",
     "static/media/gif2.gif": "/Sharun-portfolio/static/media/gif2.bb40340f165929162262.gif",
+    "static/media/project.png": "/Sharun-portfolio/static/media/project.1ef4baf12613053f49a4.png",
+    "static/media/laptop-png.png": "/Sharun-portfolio/static/media/laptop-png.16a2442232d36f70d1a0.png",
     "static/media/photostudio-3-designify.png": "/Sharun-portfolio/static/media/photostudio-3-designify.dba6c3ee90b82303c5c8.png",
     "static/media/bg-png.png": "/Sharun-portfolio/static/media/bg-png.e47966de4cd24674a6cd.png",
     "static/media/RoundeImage.png": "/Sharun-portfolio/static/media/RoundeImage.3e450d127caf27f706df.png",
     "static/media/shapes-bg-color.webp": "/Sharun-portfolio/static/media/shapes-bg-color.e9b9455c82825c20bee5.webp",
     "static/media/common-bg.svg": "/Sharun-portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/Sharun-portfolio/index.html",
-    "main.6e5ef5b2.css.map": "/Sharun-portfolio/static/css/main.6e5ef5b2.css.map",
-    "main.db38d3af.js.map": "/Sharun-portfolio/static/js/main.db38d3af.js.map",
+    "main.d4188a4b.css.map": "/Sharun-portfolio/static/css/main.d4188a4b.css.map",
+    "main.30132bf4.js.map": "/Sharun-portfolio/static/js/main.30132bf4.js.map",
     "787.128fc6e9.chunk.js.map": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e5ef5b2.css",
-    "static/js/main.db38d3af.js"
+    "static/css/main.d4188a4b.css",
+    "static/js/main.30132bf4.js"
   ]
 }
