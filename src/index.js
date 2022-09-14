@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 import { extendTheme } from "@chakra-ui/react";
+import { BrowserRouter } from "react-router-dom";
 AOS.init({
   duration: 1200,
 })
@@ -21,7 +22,9 @@ const theme = extendTheme({
 root.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
+      <BrowserRouter>
       <App />
+      </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>
 );

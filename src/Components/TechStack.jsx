@@ -19,7 +19,7 @@ export default function TechStack() {
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        <Box data-aos="fade-right" fontSize={"2xl"} textAlign={"justify"} w="45%">
+        <Box  data-aos="fade-right" fontSize={"2xl"} textAlign={"justify"} w={["90%","90%","45%"]}>
           {MySkills.details.map((elem) => (
             <Text mt="5%" fontWeight={400}>
               ⚡{elem}
@@ -38,7 +38,7 @@ export default function TechStack() {
             gap="3rem"
           >
             {MySkills.logos.map((elem) => (
-              <Box data-aos="fade-left" cursor="pointer" fontSize={['2xl','5xl']} gl    >
+              <Box data-aos="fade-left" cursor="pointer" fontSize={['2xl','5xl']}>
                <Logo
                key={elem.id}
                name={elem.name}

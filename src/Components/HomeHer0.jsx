@@ -1,8 +1,9 @@
 import { Box, Heading, Flex, Button, Image } from "@chakra-ui/react";
 import React from "react";
+import { GrDocumentCsv, GrDocumentPdf, GrGithub, GrResume } from "react-icons/gr";
 import Typewriter from "typewriter-effect";
 import ClickMe from "./Button";
-import logo from "./gif2.gif";
+import logo from "../Images/gif2.gif";
 
 export default function HomeHero() {
   return (
@@ -57,7 +58,7 @@ export default function HomeHero() {
               }}
             />
           </Box>
-          <ClickMe />
+         <ClickMe/>
         </Box>
         <Box
           data-aos="fade-right"

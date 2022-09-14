@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 // import  {logo1}  from "./elements";
-import logo from './photostudio-3-designify.png';
+import logo from '../Images/photostudio-3-designify.png';
 const Links = ["HOME", "ABOUT", "PROJECTS", "CONTACT"];
 
 export default function Simple() {

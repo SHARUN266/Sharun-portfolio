@@ -1,7 +1,7 @@
 import { Box, Flex, Text, Image, Heading } from "@chakra-ui/react";
 import React from "react";
 import Typewriter from "typewriter-effect";
-import logo from "./RoundeImage.png";
+import logo from "../Images/RoundeImage.png";
 export default function About() {
   return (
     <Box id="bg" h={["auto", "auto", "80vh"]} p="1rem" alignItems={"center"}>
