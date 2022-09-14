@@ -12,13 +12,52 @@ import {
   createIcon,
   IconProps,
   useColorModeValue,
+  Link
 } from "@chakra-ui/react";
 import { GrGithub } from "react-icons/gr";
-import { Link } from "react-router-dom";
+
 import laptop from "../Images/laptop-png.png";
 import project from "../Images/project.png";
+import AirGarage from "../Images/AirGarageGif.gif";
+import Netflix from "../Images/Netflix.gif"
 export default function CallToActionWithVideo() {
-  var projectData=[1,2,3,4]
+  var projectData=[
+      {
+        img:project,
+        title:"Crickbuzz-clone",
+        discription:`Cricbuzz is one of the most popular mobile apps for cricket news and
+        scores in India. The site was the seventh most searched for site
+        in India in 2014.The mobile app has over 100 million downloads
+        as of February 2022 and the website is used by more than 50 million
+        users worldwide, generating 2.6 billion page views in Jan 2015. `,
+        strong:` I
+        done this project indivisually during Masai Construck week in unit 4.`,
+        techUsed:"React | Chakra UI | Crickbuzz API",
+        liveLink:"https://cricbuzzclonebysharun.netlify.app/",
+        gitHubLink:"https://github.com/SHARUN266/deserted-spring-5213"
+      },
+      {
+         img:AirGarage,
+         title:"Air Garage-clone",
+         discription:`AirGarage was founded in 2017 when Chelsea, Scott, and Jonathon stumbled upon the inefficiencies in the parking industry while searching for cheaper university parking.`,
+         strong:` I
+         done this project indivisually during Masai Construck week`,
+         techUsed:"Reach | Chakra UI | Data-aos",
+         liveLink:"https://the-great-sharun266-site.netlify.app/talktosales",
+         gitHubLink:"https://github.com/SHARUN266/judicious-loss-7894"
+      },
+      {
+        img:Netflix,
+        title:"Netflix-clone",
+        discription:`I have done this project individually and build the clone of a very popular Netflix online platfor where user can entertain them self by watching various kind of videos. Have fun after the subscription . I hope you will enjoy the reading….`,
+        strong:"I done this project when one-month of web-development journey is completed.",
+        techUsed:"HTML | CSS | JavaScript",
+        liveLink:"https://sprightly-bombolone-3e7ed9.netlify.app/",
+        gitHubLink:"https://github.com/SHARUN266/NetflixClone"
+      }
+
+
+  ]
   return (
     <Container id="bg3" maxW={"7xl"}>
        <Heading className="heading-sec__main" mt="5%">
@@ -57,28 +96,23 @@ export default function CallToActionWithVideo() {
              
     
             >
-              Crickbuzz-clone
+              {elem.title}
             </Text>
             <br />
             {/* <Text as={'span'} color={'red.400'}>
                 use everywhere!
               </Text> */}
           </Heading>
-          <Text color={"gray.500"}  data-aos="zoom-in">
-            Cricbuzz is one of the most popular mobile apps for cricket news and
-            scores in India. The site was the seventh most searched for site
-            in India in 2014.The mobile app has over 100 million downloads
-            as of February 2022 and the website is used by more than 50 million
-            users worldwide, generating 2.6 billion page views in Jan 2015. <strong>  I
-            done this project indivisually during Masai Construck week in unit 4.</strong>
+          <Text color={"gray.500"}  data-aos="zoom-in">{elem.discription}
+            <strong>{elem.strong} </strong>
           </Text>
-          <Text>  <Box fontWeight={700}  >  Tech Stacks:-</Box><Box   fontWeight={500} > React | Chakra UI | Crickbuzz API </Box>  </Text>
+          <Text>  <Box fontWeight={700}  >  Tech Stacks:-</Box><Box   fontWeight={500} >{elem.techUsed}  </Box>  </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}
             data-aos="fade-right"
           >
-            <a href="cricbuzzclonebysharun.netlify.app/">
+            <Link href={elem.liveLink}>
               <Button
                 rounded={"full"}
                 size={"lg"}
@@ -91,8 +125,8 @@ export default function CallToActionWithVideo() {
               >
                 Live Demo
               </Button>
-            </a>
-            <a href="https://github.com/SHARUN266/deserted-spring-5213">
+            </Link>
+            <Link href={elem.gitHubLink}>
               <Button
                 shadow={"lg"}
                 rounded={"full"}
@@ -103,7 +137,7 @@ export default function CallToActionWithVideo() {
               >
                 GitHub
               </Button>
-            </a>
+            </Link>
           </Stack>
         </Stack>
         <Flex
@@ -130,7 +164,7 @@ export default function CallToActionWithVideo() {
               align={"center"}
               w={"100%"}
               h={"100%"}
-              bgImage={project}
+              bgImage={elem.img}
               bgRepeat="no-repeat"
               bgSize={"75% 85%"}
               bgPosition={"center "}
@@ -146,7 +180,7 @@ export default function CallToActionWithVideo() {
   );
 }
 
-export const Blob = (props: IconProps) => {
+export const Blob = (props) => {
   return (
     <Icon
       width={"100%"}

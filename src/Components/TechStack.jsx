@@ -1,7 +1,7 @@
 import { Box, Flex, Text, Heading, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import { MySkills } from "./logos";
-import { Icon } from "@iconify/react";
+
 import Logo from "./Logo2";
 
 export default function TechStack() {
