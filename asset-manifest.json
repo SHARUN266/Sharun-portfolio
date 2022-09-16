@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sharun-portfolio/static/css/main.2159ea0a.css",
-    "main.js": "/Sharun-portfolio/static/js/main.db96a98b.js",
+    "main.css": "/Sharun-portfolio/static/css/main.a81e133c.css",
+    "main.js": "/Sharun-portfolio/static/js/main.f541712b.js",
     "static/js/787.128fc6e9.chunk.js": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Netflix.gif": "/Sharun-portfolio/static/media/Netflix.fcd9847b3c75e4603d7b.gif",
     "static/media/AirGarageGif.gif": "/Sharun-portfolio/static/media/AirGarageGif.89e72175e53ff76611ce.gif",
@@ -16,12 +16,12 @@
     "static/media/shapes-bg-color.webp": "/Sharun-portfolio/static/media/shapes-bg-color.e9b9455c82825c20bee5.webp",
     "static/media/common-bg.svg": "/Sharun-portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/Sharun-portfolio/index.html",
-    "main.2159ea0a.css.map": "/Sharun-portfolio/static/css/main.2159ea0a.css.map",
-    "main.db96a98b.js.map": "/Sharun-portfolio/static/js/main.db96a98b.js.map",
+    "main.a81e133c.css.map": "/Sharun-portfolio/static/css/main.a81e133c.css.map",
+    "main.f541712b.js.map": "/Sharun-portfolio/static/js/main.f541712b.js.map",
     "787.128fc6e9.chunk.js.map": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2159ea0a.css",
-    "static/js/main.db96a98b.js"
+    "static/css/main.a81e133c.css",
+    "static/js/main.f541712b.js"
   ]
 }
