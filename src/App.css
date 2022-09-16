@@ -126,6 +126,14 @@
     background-repeat: no-repeat;
     background-size:100% 100%;
 }
+#about>div>div>img{
+  height: 100%;
+  transition: 2000ms;
+  cursor: pointer;
+}
+#about>div>div>img:hover{
+  transform: scale(1.06);
+}
 #projects {
   background-image: url(./Images/project-png.webp);
    background-repeat: no-repeat;
@@ -147,3 +155,17 @@
 #scroll_bar::-webkit-scrollbar{
   display: none;
 }
+
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ max-width: 100%;
+  background: linear-gradient(to bottom right, rgba(0,0,0, 0.9), rgba(11, 20, 54, 0.8), rgba(73, 20, 195, 0.9)), url("./Components/common-bg.svg") center no-repeat;
+  background-size: cover;
+}
+
+
+

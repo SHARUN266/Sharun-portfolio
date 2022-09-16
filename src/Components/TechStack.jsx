@@ -26,7 +26,7 @@ export default function TechStack() {
             </Text>
           ))}
         </Box>
-        <Box w="50%">
+        <Box w="50%" mt="5%">
           <Heading data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">{MySkills.title}</Heading>
@@ -34,7 +34,7 @@ export default function TechStack() {
             alignItems={"center"}
             mt="10%"
            
-            columns={[2, 2, 3, 4]}
+            columns={[2, 3, 3, 4]}
             gap="3rem"
           >
             {MySkills.logos.map((elem) => (

@@ -4,7 +4,7 @@ export const MySkills = {
   
     details: [
       "Building responsive website using HTML,CSS,JS,React",
-      "Creating backend application in Node, ExpressJS",
+      "Creating backend application in Node,ExpressJS",
       "Building Simple RESTful CRUD APIs",
       "Knowledge of MongoDB Database",
       "Knowledge of various UI libraries",

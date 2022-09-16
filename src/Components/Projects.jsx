@@ -8,10 +8,7 @@ import {
   Button,
   Image,
   Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
+ 
   Link
 } from "@chakra-ui/react";
 import { GrGithub } from "react-icons/gr";
@@ -59,8 +56,8 @@ export default function CallToActionWithVideo() {
 
   ]
   return (
-    <Container id="projects" maxW={"7xl"}>
-       <Heading className="heading-sec__main" mt="5%">
+    <Container id="projects" maxW={"7xl"} >
+       <Heading className="heading-sec__main" mt="15%">
         PROJECTS
       </Heading>
       {

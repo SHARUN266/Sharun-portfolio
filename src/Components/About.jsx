@@ -14,27 +14,27 @@ export default function About() {
         alignItems={"center"}
         justifyContent={"space-between"}
         m="auto"
-        direction={["column", "column", "row"]}
-        gap={["4rem", "3rem", "0rem"]}
+        direction={["column", "column",'column', "row"]}
+        gap={["4rem", "3rem","0rem", "0rem"]}
       >
         <Box
           data-aos={"fade-right"}
-          mt={["7%", "3%", "2%"]}
+          mt={["7%", "3%","3%", "2%"]}
           display={"flex"}
           
           w="50%"
           h="100%"
         >
           <Image
-            h="100%"
-            w={["100%", "100%", "67%"]}
+            
+            w={["100%", "100%","67%", "67%"]}
             borderRadius={"rounded"}
             src={logo}
             alt="sharun"
           />
         </Box>
 
-        <Box w={["100%", "100%", "50%"]} textAlign={"justify"}>
+        <Box w={["100%", "100%","100%", "50%"]} textAlign={"justify"}>
           <Box className="about__content-main">
             <Box data-aos="fade-down" fontWeight={"bold"} fontSize="2xl">
               <Typewriter

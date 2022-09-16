@@ -34,8 +34,9 @@ export default function HomeHero() {
             mt="1"
             fontWeight="700"
             as="h1"
+            letterSpacing={2}
           >
-            Hi, My name is
+            Hi,My name is
           </Box>
 
           <Heading

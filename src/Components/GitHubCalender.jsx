@@ -42,7 +42,7 @@ export default function GitHubCalender1() {
          
           <Image
             w="100%"
-            mt="5%"
+            
             borderRadius={"xl"}
             alt="${SHARUN266} Activity Graph"
             src="https://activity-graph.herokuapp.com/graph?username=SHARUN266&bg_color=0D1117&color=5BCDEC&line=0062B9&point=FFFFFF&hide_border=false"
