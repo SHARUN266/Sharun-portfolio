@@ -6,7 +6,7 @@ import Logo from "./Logo2";
 
 export default function TechStack() {
   return (
-    <Box id="bg2"  p="2rem 0rem" h={["auto","auto","100vh"]}  >
+    <Box id="techstacks"  p="2rem 0rem" h={["auto","auto","100vh"]}  >
       <Heading className="heading-sec__main" mt="5%">
         {" "}
         tech stacks{" "}

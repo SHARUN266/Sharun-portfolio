@@ -59,7 +59,7 @@ export default function CallToActionWithVideo() {
 
   ]
   return (
-    <Container id="bg3" maxW={"7xl"}>
+    <Container id="projects" maxW={"7xl"}>
        <Heading className="heading-sec__main" mt="5%">
         PROJECTS
       </Heading>

@@ -111,7 +111,7 @@
   display: block;
   color: red;
 }
-#bg2{
+#techstacks{
   background: linear-gradient(
     
     rgba(253, 250, 250, 0.646),
@@ -121,17 +121,17 @@
   background-repeat: no-repeat;
     background-size:100% 100%;
 }
-#bg {
+#about {
    background-image: url(./Images/bg-png.png);
     background-repeat: no-repeat;
     background-size:100% 100%;
 }
-#bg3 {
+#projects {
   background-image: url(./Images/project-png.webp);
    background-repeat: no-repeat;
    background-size:100% 100%;
 }
-#gitHub_page{
+#statistics{
   background: linear-gradient(
     
     rgba(253, 250, 250, 0.646),
@@ -140,6 +140,9 @@
   url(./Images/GitHub.webp);
   background-repeat: no-repeat;
   background-size:100% 100%;
+}
+#scroll_bar{
+ 
 }
 #scroll_bar::-webkit-scrollbar{
   display: none;

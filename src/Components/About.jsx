@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import logo from "../Images/RoundeImage.png";
 export default function About() {
   return (
-    <Box id="bg" h={["auto", "auto", "80vh"]} p="1rem" alignItems={"center"}>
+    <Box id="about" h={["auto", "auto", "80vh"]} p="1rem" alignItems={"center"}>
       <Heading className="heading-sec__main" mt="5%">
         ABOUT ME
       </Heading>
@@ -21,9 +21,9 @@ export default function About() {
           data-aos={"fade-right"}
           mt={["7%", "3%", "2%"]}
           display={"flex"}
-          justifyContent={"center"}
-          w="40%"
-          h="80%"
+          
+          w="50%"
+          h="100%"
         >
           <Image
             h="100%"
@@ -42,6 +42,7 @@ export default function About() {
                   strings: ["Get to know me!"],
                   autoStart: true,
                   loop: true,
+                 delay:75
                 }}
               />
             </Box>

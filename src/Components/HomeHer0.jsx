@@ -8,6 +8,7 @@ import logo from "../Images/gif2.gif";
 export default function HomeHero() {
   return (
     <Box
+    
       data-aos="zoom-in"
       id="homeHero"
       p="2rem"

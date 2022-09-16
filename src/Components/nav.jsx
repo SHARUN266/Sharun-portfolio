@@ -13,9 +13,32 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+
 // import  {logo1}  from "./elements";
 import logo from '../Images/photostudio-3-designify.png';
-const Links = ["HOME", "ABOUT", "PROJECTS", "CONTACT"];
+import { HashLink as Link } from "react-router-hash-link";
+const Links = [
+  {
+    link:"#homeHero",
+    text:"HOME"
+  }
+  
+  , {
+    link:"#about",
+    text:"ABOUT"
+  },
+  {
+    link:"#techstacks",
+    text:"techstacks"
+  }, {
+    link:"#projects",
+    text:"PROJECTS"
+  },
+  
+  , {
+    link:"#statistics",
+    text:"STATISTICS"
+  }];
 
 export default function Simple() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -49,8 +72,9 @@ export default function Simple() {
               spacing={12}
               display={{ base: "none", md: "flex" }}
             >
-              {Links.map((link) => (
-                <Box id="text" key={link}>{link}</Box>
+              {Links.map((link,i) => (
+                <Link id="text"   activeClassName="selected"
+                activeStyle={{ color: '#0062b9' }} smooth to={link.link} key={link+i}>{link.text}</Link>
               ))}
             </HStack>
           </HStack>
@@ -65,9 +89,9 @@ export default function Simple() {
 
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
-            <Stack as={"nav"} spacing={4}>
+            <Stack as={"nav"} textTransform={'uppercase'} spacing={4}>
               {Links.map((link) => (
-                <Box key={link}>{link}</Box>
+                <Link key={link} smooth to={link.link}   >{link.text}</Link>
               ))}
             </Stack>
           </Box>
