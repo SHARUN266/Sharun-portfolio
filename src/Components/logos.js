@@ -82,8 +82,8 @@ export const MySkills = {
         id: "14",
       },
       {
-        name: "Netlify",
-        iconifyClassName: "logos:chakra-ui",
+        name: "Mongoose",
+        iconifyClassName: "logos:mongoose",
         id: "15",
       },
       {

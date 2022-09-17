@@ -14,40 +14,42 @@ export default function About() {
         alignItems={"center"}
         justifyContent={"space-between"}
         m="auto"
-        direction={["column", "column",'column', "row"]}
-        gap={["4rem", "3rem","0rem", "0rem"]}
+        direction={["column", "column", "column", "row"]}
+        gap={["4rem", "3rem", "0rem", "0rem"]}
       >
         <Box
           data-aos={"fade-right"}
-          mt={["7%", "3%","3%", "2%"]}
+          mt={["7%", "3%", "3%", "2%"]}
           display={"flex"}
-          
           w="50%"
           h="100%"
         >
           <Image
-            
-            w={["100%", "100%","67%", "67%"]}
+            w={["100%", "100%", "67%", "67%"]}
             borderRadius={"rounded"}
             src={logo}
             alt="sharun"
           />
         </Box>
 
-        <Box w={["100%", "100%","100%", "50%"]} textAlign={"justify"}>
+        <Box w={["100%", "100%", "100%", "50%"]} textAlign={"justify"}>
           <Box className="about__content-main">
-            <Box data-aos="fade-down" fontWeight={"bold"} fontSize="2xl">
+            <Box
+              data-aos="fade-down"
+              fontWeight={"bold"}
+              fontSize={["md", "xl", "2xl"]}
+            >
               <Typewriter
                 options={{
                   strings: ["Get to know me!"],
                   autoStart: true,
                   loop: true,
-                 delay:75
+                  delay: 75,
                 }}
               />
             </Box>
             <Box mt="2%">
-              <Text fontSize={"2xl"} data-aos={"fade-left"}>
+              <Text fontSize={["md", "xl", "2xl"]} data-aos={"fade-left"}>
                 Hey! It's
                 {/* <strong> Sharun </strong>
                 and I'm a <strong> Full Stack developer </strong> 

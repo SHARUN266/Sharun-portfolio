@@ -40,7 +40,7 @@ export default function CallToActionWithVideo() {
          strong:` I
          done this project indivisually during Masai Construck week`,
          techUsed:"Reach | Chakra UI | Data-aos",
-         liveLink:"https://the-great-sharun266-site.netlify.app/talktosales",
+         liveLink:"https://the-great-sharun266-site.netlify.app",
          gitHubLink:"https://github.com/SHARUN266/judicious-loss-7894"
       },
       {

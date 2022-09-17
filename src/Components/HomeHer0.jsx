@@ -26,7 +26,7 @@ export default function HomeHero() {
         direction={["column", "column", "row"]}
       >
         <Box  data-aos="fade-right"
-          data-aos-duration="3000" p="2rem" textAlign={"justify"}>
+          data-aos-duration="3000" p="2rem" textAlign={"justify"}  >
           <Box
             data-aos="fade-right"
             data-aos-offset="300"
@@ -35,6 +35,7 @@ export default function HomeHero() {
             fontWeight="700"
             as="h1"
             letterSpacing={2}
+            
           >
             Hi,My name is
           </Box>
@@ -51,11 +52,12 @@ export default function HomeHero() {
             sharun
           </Heading>
 
-          <Box fontSize={["1rem", "2rem"]}>
+          <Box fontSize={["sm","sm","xl","2xl"]} letterSpacing={3}>
             <Typewriter
               options={{
                 strings: ["Full Stack Developer", "MERN stack developer"],
                 autoStart: true,
+                smooth:true,
                 loop: true,
               }}
             />

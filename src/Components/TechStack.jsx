@@ -19,26 +19,27 @@ export default function TechStack() {
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        <Box  data-aos="fade-right" fontSize={"2xl"} textAlign={"justify"} w={["90%","90%","45%"]}>
+        {/* <Box  data-aos="fade-right" fontSize={["md","xl",   "2xl"]} textAlign={"justify"} w={["90%","90%","45%"]}>
           {MySkills.details.map((elem) => (
             <Text mt="5%" fontWeight={400}>
               ⚡{elem}
             </Text>
           ))}
-        </Box>
-        <Box w="50%" mt="5%">
+        </Box> */}
+        <Box w="100%" m="auto" mt="5%" >
           <Heading data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">{MySkills.title}</Heading>
           <SimpleGrid
             alignItems={"center"}
+            justifyContent="center"
             mt="10%"
-           
+            
             columns={[2, 3, 3, 4]}
             gap="3rem"
           >
             {MySkills.logos.map((elem) => (
-              <Box data-aos="fade-left" cursor="pointer" fontSize={['2xl','5xl']}>
+              <Box  display="flex" alignItem={'centre'} justifyContent={'center'} data-aos="fade-left" cursor="pointer" fontSize={['2xl','5xl']}>
                <Logo
                key={elem.id}
                name={elem.name}

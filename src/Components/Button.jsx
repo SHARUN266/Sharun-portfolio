@@ -9,11 +9,11 @@ import {
 import { useState } from "react";
 
 import { GrDocumentDownload, GrDocumentPdf } from "react-icons/gr";
-
+import Resume from './Sharunresume.pdf'
 export default function ClickMe() {
   return (
     <Flex mt={["3%", "4%"]}>
-      <a download={'https://drive.google.com/file/d/1tCBIetBLyCm-PLppRuPq0HEGAcOazhda/view?usp=sharing'} href="https://drive.google.com/file/d/1tCBIetBLyCm-PLppRuPq0HEGAcOazhda/view?usp=sharing">
+      <a  href={Resume} target="_blank"   download="Sharun">
       <Button
                 shadow={"lg"}
                 rounded={"full"}

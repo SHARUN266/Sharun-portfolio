@@ -16,7 +16,8 @@ import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 // import  {logo1}  from "./elements";
 import logo from '../Images/photostudio-3-designify.png';
-import { HashLink as Link } from "react-router-hash-link";
+
+import { NavHashLink as Link } from "react-router-hash-link";
 const Links = [
   {
     link:"#homeHero",
@@ -91,7 +92,8 @@ export default function Simple() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} textTransform={'uppercase'} spacing={4}>
               {Links.map((link) => (
-                <Link key={link} smooth to={link.link}   >{link.text}</Link>
+                <Link  activeClassName="selected"
+                activeStyle={{ color: 'red' }} key={link} smooth to={link.link}   >{link.text}</Link>
               ))}
             </Stack>
           </Box>
