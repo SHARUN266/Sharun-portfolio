@@ -10,21 +10,17 @@ import {
     HStack,
     Wrap,
     WrapItem,
-    FormControl,
-    FormLabel,
-    Input,
-    InputGroup,
-    InputLeftElement,
-    Textarea,
+  
   } from '@chakra-ui/react';
   import {
     MdPhone,
     MdEmail,
     MdLocationOn,
-    MdFacebook,
+    
     MdOutlineEmail,
   } from 'react-icons/md';
-  import { BsGithub, BsDiscord, BsPerson, BsLinkedin, BsInstagram } from 'react-icons/bs';
+  import { BsGithub,   BsLinkedin } from 'react-icons/bs';
+
   
   export default function contact() {
     return (
@@ -59,6 +55,7 @@ import {
                           leftIcon={<MdPhone color="#1970F1" size="20px" />}>
                           +91-8279934295
                         </Button>
+                        <a href="mailto:sharunattari266@gmail.com">
                         <Button
                           size="md"
                           height="48px"
@@ -69,6 +66,7 @@ import {
                           leftIcon={<MdEmail color="#1970F1" size="20px" />}>
                           Sharunattari266@gmail.com
                         </Button>
+                        </a>
                         <Button
                           size="md"
                           height="48px"
@@ -87,15 +85,18 @@ import {
                       px={5}
                       justifyContent={'center'}
                       alignItems="center">
-                      <IconButton
-                        aria-label="facebook"
+                        <a href="https://www.linkedin.com/in/sharun-3918581b2"> <IconButton
+                        aria-label="linkedIn"
                         variant="ghost"
                         size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
                         icon={<BsLinkedin size="28px" />}
-                      />
-                      <IconButton
+                      /></a>
+                     
+
+                     <a href="https://github.com/SHARUN266">
+                     <IconButton
                         aria-label="github"
                         variant="ghost"
                         size="lg"
@@ -103,68 +104,22 @@ import {
                         _hover={{ bg: '#0D74FF' }}
                         icon={<BsGithub size="28px" />}
                       />
+                     </a>
+                      <a href="mailto:sharunattari266@gmail.com">
                       <IconButton
-                        aria-label="discord"
+                        aria-label="instagram"
                         variant="ghost"
                         size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
-                        icon={<BsInstagram size="28px" />}
+                        icon={<MdOutlineEmail size="28px" />}
                       />
+                      </a>
+                      
                     </HStack>
                   </Box>
                 </WrapItem>
-                <WrapItem>
-                  <Box bg="white" borderRadius="lg" w={["auto","auto","auto","30rem","40rem"]}>
-                    <Box m={8} color="#0B0E3F">
-                      <VStack spacing={5} alignItems={'center'} justifyContent={'center'}>
-                        <FormControl id="name">
-                          <FormLabel>Your Name</FormLabel>
-                          <InputGroup borderColor="#E0E1E7">
-                            <InputLeftElement
-                              pointerEvents="none"
-                              children={<BsPerson color="gray.800" />}
-                            />
-                            <Input type="text" size="md" />
-                          </InputGroup>
-                        </FormControl>
-                        <FormControl id="name">
-                          <FormLabel>Mail</FormLabel>
-                          <InputGroup borderColor="#E0E1E7">
-                            <InputLeftElement
-                              pointerEvents="none"
-                              children={<MdOutlineEmail color="gray.800" />}
-                            />
-                            <Input type="text" size="md" />
-                          </InputGroup>
-                        </FormControl>
-                        <FormControl id="name">
-                          <FormLabel>Message</FormLabel>
-                          <Textarea
-                            borderColor="gray.300"
-                            _hover={{
-                              borderRadius: 'gray.300',
-                            }}
-                            placeholder="message"
-                          />
-                        </FormControl>
-                        <FormControl id="name" float="right">
-                            <form action="callto:8279934295" method='post'   enctype="text/plain">
-                          <Input
-                            variant="solid"
-                            bg="#0D74FF"
-                            color="white"
-                            type={'submit'}
-                            value={' Send Message'}
-                            _hover={{}}/>
-                           
-                         
-                          </form>
-                        </FormControl>
-                      </VStack>
-                    </Box>
-                  </Box>
-                </WrapItem>
+               
               </Wrap>
             </Box>
           </Box>

@@ -1,17 +1,18 @@
 import {
   Avatar,
   Box,
-  chakra,
+
   Container,
+  SimpleGrid,
   Stack,
   Text,
   useColorModeValue,
-  VisuallyHidden,
+  
 } from "@chakra-ui/react";
-import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-import { ReactNode } from "react";
-import { GrContact, GrGithub, GrMail } from "react-icons/gr";
-import { PhoneIcon } from "@chakra-ui/icons";
+import { FaInstagram, FaLinkedin, } from "react-icons/fa";
+
+import {  GrGithub, GrMail } from "react-icons/gr";
+
 
 import sharunAvatar from "../Images/RoundeImage.png";
 import { HashLink as Link } from "react-router-hash-link";
@@ -40,6 +41,10 @@ const Links = [
     link: "#statistics",
     text: "STATISTICS",
   },
+  {
+    link:"#contact",
+    text:"CONTACT"
+  }
 ];
 export default function SharunFooter() {
   return (
@@ -53,14 +58,14 @@ export default function SharunFooter() {
         justify={"center"}
         align={"center"}
       >
-        <Stack textTransform={"uppercase"} direction={"row"} spacing={6}>
+        <SimpleGrid columns={[1,2,3,7]} textTransform={"uppercase"} direction={"row"} spacing={6}>
           Links
           {Links.map((elem) => (
             <Link smooth to={elem.link}>
               {elem.text}
             </Link>
           ))}
-        </Stack>
+        </SimpleGrid>
       </Container>
 
       <Box
@@ -81,13 +86,18 @@ export default function SharunFooter() {
             © Copyright 2022. Made by <strong>Sharun</strong>{" "}
           </Text>
           <Stack direction={"row"} spacing={6} fontSize={"2xl"}>
-            <GrGithub />
-            <FaLinkedin />
-
-            <PhoneIcon />
-            <GrMail />
-
-            <FaInstagram />
+            <a href="https://github.com/SHARUN266">
+              <GrGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/sharun-3918581b2">
+              <FaLinkedin />
+            </a>
+           
+            <a href="mailto:sharunattari266@gmail.com">
+              <GrMail />
+            </a>
+             <a href="https://www.instagram.com/sharun_alvi"> <FaInstagram /></a>
+           
           </Stack>
         </Container>
       </Box>

@@ -1,12 +1,11 @@
-import { Box, Flex, Text, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
-import { MySkills } from "./logos";
 
-import Logo from "./Logo2";
+import Skills from "./Skills";
 
 export default function TechStack() {
   return (
-    <Box id="techstacks"  p="2rem 0rem" h={["auto","auto","100vh"]}  >
+    <Box id="techstacks" p="2rem" h={["auto", "auto", "100vh"]}>
       <Heading className="heading-sec__main" mt="5%">
         {" "}
         tech stacks{" "}
@@ -19,36 +18,8 @@ export default function TechStack() {
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        {/* <Box  data-aos="fade-right" fontSize={["md","xl",   "2xl"]} textAlign={"justify"} w={["90%","90%","45%"]}>
-          {MySkills.details.map((elem) => (
-            <Text mt="5%" fontWeight={400}>
-              ⚡{elem}
-            </Text>
-          ))}
-        </Box> */}
-        <Box w="100%" m="auto" mt="5%" >
-          <Heading data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">{MySkills.title}</Heading>
-          <SimpleGrid
-            alignItems={"center"}
-            justifyContent="center"
-            mt="10%"
-            
-            columns={[2, 3, 3, 4]}
-            gap="3rem"
-          >
-            {MySkills.logos.map((elem) => (
-              <Box  display="flex" alignItem={'centre'} justifyContent={'center'} data-aos="fade-left" cursor="pointer" fontSize={['2xl','5xl']}>
-               <Logo
-               key={elem.id}
-               name={elem.name}
-               className={elem.iconifyClassName}
-               />
-             
-              </Box>
-            ))}
-          </SimpleGrid>
+        <Box w="100%" m="auto">
+          <Skills />
         </Box>
       </Flex>
     </Box>

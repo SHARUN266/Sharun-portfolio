@@ -1,14 +1,13 @@
 import {
-  Box,
-  Button,
-  ButtonProps,
-  Flex,
-  useColorModeValue,
-  Image,
-} from "@chakra-ui/react";
-import { useState } from "react";
 
-import { GrDocumentDownload, GrDocumentPdf } from "react-icons/gr";
+  Button,
+  
+  Flex,
+ 
+} from "@chakra-ui/react";
+
+
+import {GrDocumentPdf } from "react-icons/gr";
 import Resume from './Sharunresume.pdf'
 export default function ClickMe() {
   return (

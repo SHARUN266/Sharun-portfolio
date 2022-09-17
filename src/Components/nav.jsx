@@ -39,7 +39,13 @@ const Links = [
   , {
     link:"#statistics",
     text:"STATISTICS"
-  }];
+  },
+  {
+    link:"#contact",
+    text:"CONTACT"
+  }
+
+];
 
 export default function Simple() {
   const { isOpen, onOpen, onClose } = useDisclosure();

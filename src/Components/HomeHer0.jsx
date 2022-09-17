@@ -1,6 +1,6 @@
-import { Box, Heading, Flex, Button, Image } from "@chakra-ui/react";
+import { Box, Heading, Flex, Image } from "@chakra-ui/react";
 import React from "react";
-import { GrDocumentCsv, GrDocumentPdf, GrGithub, GrResume } from "react-icons/gr";
+
 import Typewriter from "typewriter-effect";
 import ClickMe from "./Button";
 import logo from "../Images/gif2.gif";
