@@ -12,7 +12,7 @@ export default function HomeHero() {
       data-aos="zoom-in"
       id="homeHero"
       p="2rem"
-      h={["auto", "auto", "80vh"]}
+      h={["auto", "auto", "100vh"]}
       display={"flex"}
       alignItems="center"
     >
