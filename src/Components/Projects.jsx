@@ -69,8 +69,9 @@ export default function CallToActionWithVideo() {
         spacing={{ base: 8, md: 10 }}
         py={{ base: 20, md: 28 }}
         direction={{ base: "column", md: "row" }}
+        borderBottom="1px solid #dce1e8"
       >
-        <Stack textAlign={"justify"} flex={1} spacing={{ base: 5, md: 10 }}>
+        <Stack textAlign={"justify"}  flex={1} spacing={{ base: 5, md: 10 }}>
           <Heading
            data-aos="fade-right"
             lineHeight={1.1}
@@ -109,7 +110,7 @@ export default function CallToActionWithVideo() {
             direction={{ base: "column", sm: "row" }}
             data-aos="fade-right"
           >
-            <Link href={elem.liveLink}>
+            <Link href={elem.liveLink} target="_blank" rel="noreferrer noopener" >
               <Button
                 rounded={"full"}
                 size={"lg"}
@@ -123,7 +124,7 @@ export default function CallToActionWithVideo() {
                 Live Demo
               </Button>
             </Link>
-            <Link href={elem.gitHubLink}>
+            <Link href={elem.gitHubLink} target="_blank" rel="noreferrer noopener">
               <Button
                 shadow={"lg"}
                 rounded={"full"}

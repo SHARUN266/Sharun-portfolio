@@ -59,7 +59,7 @@ export default function SharunFooter() {
         align={"center"}
       >
         <SimpleGrid columns={[1,2,3,7]} textTransform={"uppercase"} direction={"row"} spacing={6}>
-          Links
+         
           {Links.map((elem) => (
             <Link smooth to={elem.link}>
               {elem.text}
@@ -86,17 +86,17 @@ export default function SharunFooter() {
             © Copyright 2022. Made by <strong>Sharun</strong>{" "}
           </Text>
           <Stack direction={"row"} spacing={6} fontSize={"2xl"}>
-            <a href="https://github.com/SHARUN266">
+            <a href="https://github.com/SHARUN266" target="_blank" rel="noreferrer noopener">
               <GrGithub />
             </a>
-            <a href="https://www.linkedin.com/in/sharun-3918581b2">
+            <a href="https://www.linkedin.com/in/sharun-3918581b2" target="_blank" rel="noreferrer noopener">
               <FaLinkedin />
             </a>
            
-            <a href="mailto:sharunattari266@gmail.com">
+            <a href="mailto:sharunattari266@gmail.com" target="_blank" rel="noreferrer noopener">
               <GrMail />
             </a>
-             <a href="https://www.instagram.com/sharun_alvi"> <FaInstagram /></a>
+             <a href="https://www.instagram.com/sharun_alvi" target="_blank" rel="noreferrer noopener"> <FaInstagram /></a>
            
           </Stack>
         </Container>

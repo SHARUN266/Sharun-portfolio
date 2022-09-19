@@ -116,7 +116,7 @@
       rgba(253, 250, 250, 0.646),
       rgba(254, 255, 255, 0.89)
     ),
-    url(./Images/shapes-bg-color.webp);
+    url();
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -134,10 +134,12 @@
   transform: scale(1.06);
 }
 #projects {
+  
   background-image: url(./Images/project-png.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
 #statistics {
   background: linear-gradient(
       rgba(253, 250, 250, 0.646),

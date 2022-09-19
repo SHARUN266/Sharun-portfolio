@@ -39,9 +39,9 @@ import {
               <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                 <WrapItem>
                   <Box m="auto">
-                    <Heading>Contact</Heading>
+                    <Heading></Heading>
                     <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
-                      Fill up the form below to contact
+                      Get in touch with me!
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                       <VStack pl={0} spacing={3} alignItems="flex-start">
@@ -49,6 +49,7 @@ import {
                           size="md"
                           height="48px"
                           width="400px"
+                          
                           variant="ghost"
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
@@ -85,7 +86,7 @@ import {
                       px={5}
                       justifyContent={'center'}
                       alignItems="center">
-                        <a href="https://www.linkedin.com/in/sharun-3918581b2"> <IconButton
+                        <a href="https://www.linkedin.com/in/sharun-3918581b2" target="_blank" rel="noreferrer noopener"> <IconButton
                         aria-label="linkedIn"
                         variant="ghost"
                         size="lg"
@@ -95,7 +96,7 @@ import {
                       /></a>
                      
 
-                     <a href="https://github.com/SHARUN266">
+                     <a href="https://github.com/SHARUN266" target="_blank" rel="noreferrer noopener">
                      <IconButton
                         aria-label="github"
                         variant="ghost"
@@ -105,7 +106,7 @@ import {
                         icon={<BsGithub size="28px" />}
                       />
                      </a>
-                      <a href="mailto:sharunattari266@gmail.com">
+                      <a href="mailto:sharunattari266@gmail.com" target="_blank" rel="noreferrer noopener">
                       <IconButton
                         aria-label="instagram"
                         variant="ghost"
