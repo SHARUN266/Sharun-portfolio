@@ -134,7 +134,6 @@
   transform: scale(1.06);
 }
 #projects {
-  
   background-image: url(./Images/project-png.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -170,12 +169,11 @@
   background-size: cover;
 }
 
-
 .donut {
   position: relative;
   width: 200px;
   height: 200px;
-  filter: drop-shadow( 0px 5px 4px rgba(0, 0, 0, .4));
+  filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.4));
 }
 
 .donut-default {
@@ -219,7 +217,7 @@
 }
 
 .donut-text span {
-  color:black;
+  color: black;
 }
 
 /* ============ instalment 1 ==========*/
@@ -262,5 +260,7 @@
   height: 100%;
 }
 
-
-
+#giHubCalender{
+ 
+  border: 1px solid red;
+}

@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import GitHub from "../Images/imgGitHub.webp";
-
+import GitHubCalendar from 'react-github-calendar';
   const data=[{count:"1200++",text:"hours of coding"},{count:"1000++",text:"hours of DSA"},{count:"10+",text:"Projects"}]
 
 export default function GitHubCalender1() {
@@ -82,6 +82,14 @@ export default function GitHubCalender1() {
               src="https://github-readme-stats.vercel.app/api?username=SHARUN266&theme=radical&show_icons=true&hide=&count_private=true&hide_border=true&show_icons=true"
             />{" "}
           </a>
+        </Box>
+        <Heading mt="8%" bgGradient='linear(to-l, #7928CA, #FF0080)'
+  bgClip='text'
+  fontSize={['2xl','4xl','6xl']}
+  fontWeight='extrabold'>GitHub Contributions</Heading>
+        <Box display={'flex'}  alignItems='center' justifyContent={'center'} w={["100%", "100%", "100%"]} m="auto" mt="5%">
+        <GitHubCalendar  blockSize={18} blockMargin={5}   style={{width:"100%"}} 
+     username="sharun266"  />
         </Box>
       </Flex>
     </Box>
