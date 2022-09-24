@@ -1,8 +1,12 @@
 import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import GitHub from "../Images/imgGitHub.webp";
-import GitHubCalendar from 'react-github-calendar';
-  const data=[{count:"1200++",text:"hours of coding"},{count:"1000++",text:"hours of DSA"},{count:"10+",text:"Projects"}]
+import GitHubCalendar from "react-github-calendar";
+const data = [
+  { count: "1200++", text: "hours of coding" },
+  { count: "1000++", text: "hours of DSA" },
+  { count: "10+", text: "Projects" },
+];
 
 export default function GitHubCalender1() {
   return (
@@ -17,25 +21,25 @@ export default function GitHubCalender1() {
         w={["100%", "100%", "80%"]}
         m="auto"
         mt="7%"
-        gap={'2rem'}
+        gap={"2rem"}
         alignItems="center"
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        {
-          data.map((elem)=>(
-            <Box className="donut instalment1">
-          <div class="donut-default"></div>
-          <div class="donut-line"></div>
-          <div class="donut-text">
-            <span> <strong>{elem.count}</strong>{elem.text}</span>
-          </div>
-          <div class="donut-case"></div>
-        </Box>
-
-          ))
-        }
-        
+        {data.map((elem) => (
+          <Box className="donut instalment1">
+            <div class="donut-default"></div>
+            <div class="donut-line"></div>
+            <div class="donut-text">
+              <span>
+                {" "}
+                <strong>{elem.count}</strong>
+                {elem.text}
+              </span>
+            </div>
+            <div class="donut-case"></div>
+          </Box>
+        ))}
       </Flex>
 
       <Flex
@@ -83,13 +87,29 @@ export default function GitHubCalender1() {
             />{" "}
           </a>
         </Box>
-        <Heading mt="8%" bgGradient='linear(to-l, #7928CA, #FF0080)'
-  bgClip='text'
-  fontSize={['2xl','4xl','6xl']}
-  fontWeight='extrabold'>GitHub Contributions</Heading>
-        <Box display={'flex'}  alignItems='center' justifyContent={'center'} w={["100%", "100%", "100%"]} m="auto" mt="5%">
-        <GitHubCalendar  blockSize={18} blockMargin={5}   style={{width:"100%"}} 
-     username="sharun266"  />
+        <Heading
+          mt="8%"
+          bgGradient="linear(to-l, #7928CA, #FF0080)"
+          bgClip="text"
+          fontSize={["2xl", "4xl", "6xl"]}
+          fontWeight="extrabold"
+        >
+          GitHub Contributions
+        </Heading>
+        <Box
+          display={"flex"}
+          alignItems="center"
+          justifyContent={"center"}
+          w={["100%", "100%", "100%"]}
+          m="auto"
+          mt="5%"
+        >
+          <GitHubCalendar
+            blockSize={18}
+            blockMargin={5}
+            style={{ width: "100%" }}
+            username="sharun266"
+          />
         </Box>
       </Flex>
     </Box>
