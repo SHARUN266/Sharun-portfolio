@@ -16,7 +16,7 @@ export default function About() {
         m="auto"
         direction={["column", "column", "column", "row"]}
         gap={["4rem", "3rem", "0rem", "0rem"]}
-      >                              
+      >
         <Box
           data-aos={"fade-right"}
           mt={["7%", "3%", "3%", "2%"]}
