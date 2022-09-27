@@ -53,7 +53,11 @@ export default function Simple() {
   return (
     <>
       <Box bg={useColorModeValue("white", "white")} position={'sticky'} top={0} zIndex={100} shadow={'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;'} px={8}>
-        <Flex h="5rem" alignItems={"center"} justifyContent={"space-between"}>
+        <Flex 
+        
+        h="5rem" 
+        
+        alignItems={"center"} justifyContent={"space-between"}>
           <Flex alignItems={"center"}>
             <Menu>
               <MenuButton
@@ -80,8 +84,9 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((link,i) => (
-                <Link id="text"   activeClassName="selected"
-                activeStyle={{ color: '#0062b9' }} smooth to={link.link} key={link+i}>{link.text}</Link>
+                <Link id="text" 
+                 
+                smooth to={link.link} key={link+i}>{link.text}</Link>
               ))}
             </HStack>
           </HStack>
@@ -98,8 +103,9 @@ export default function Simple() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} textTransform={'uppercase'} spacing={4}>
               {Links.map((link) => (
-                <Link  activeClassName="selected"
-                activeStyle={{ color: 'red' }} key={link} smooth to={link.link}   >{link.text}</Link>
+                <Link  
+                key={link.id}
+                 smooth to={link.link}   >{link.text}</Link>
               ))}
             </Stack>
           </Box>

@@ -12,15 +12,18 @@ import TechStack from './Components/TechStack';
 function App() {
   return (
     <div className="App">
+      
       <Simple/>
       
       <HomeHero/>
       <About/>
       <TechStack/>
-      <Projects/>
+      <Projects/> 
+        {/* fix */}
       <GitHubCalender1/>
       <Contact/>
       <SharunFooter/>
+    
     </div>
   );
 }

@@ -61,7 +61,7 @@ export default function SharunFooter() {
         <SimpleGrid columns={[1,2,3,7]} textTransform={"uppercase"} direction={"row"} spacing={6}>
          
           {Links.map((elem) => (
-            <Link smooth to={elem.link}>
+            <Link key={elem.id} smooth to={elem.link}>
               {elem.text}
             </Link>
           ))}

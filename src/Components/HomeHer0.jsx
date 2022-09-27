@@ -12,7 +12,7 @@ export default function HomeHero() {
       data-aos="zoom-in"
       id="homeHero"
       p="2rem"
-      h={["auto", "auto", "100vh"]}
+      h={["auto", "auto", "95vh"]}
       display={"flex"}
       alignItems="center"
     >
@@ -34,6 +34,7 @@ export default function HomeHero() {
             mt="1"
             fontWeight="700"
             as="h1"
+            fontSize={["2xl", "4xl", "6xl"]}
             letterSpacing={2}
             
           >

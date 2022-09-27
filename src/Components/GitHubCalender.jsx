@@ -24,7 +24,7 @@ export default function GitHubCalender1() {
       >
         {
           data.map((elem)=>(
-            <Box className="donut instalment1">
+            <Box key={elem.id} className="donut instalment1" data-aos="zoom-in-down">
           <div class="donut-default"></div>
           <div class="donut-line"></div>
           <div class="donut-text">
@@ -56,15 +56,16 @@ export default function GitHubCalender1() {
         >
           <a href="https://github.com/SHARUN266">
             {" "}
-            <Image src="http://github-readme-streak-stats.herokuapp.com?user=sharun266&theme=neon-dark" />{" "}
+            <Image data-aos="zoom-in" src="http://github-readme-streak-stats.herokuapp.com?user=sharun266&theme=neon-dark" />{" "}
           </a>
           <a href="https://github.com/SHARUN266">
-            <Image h="10rem" src={GitHub} alt="sharun266's GitHub stats" />
+            <Image  h="10rem" src={GitHub} alt="sharun266's GitHub stats" />
           </a>
 
           <p align="center">
-            <a href="https://github.com/SHARUN266">
+            <a  href="https://github.com/SHARUN266">
               <img
+               data-aos="zoom-in"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharun266&theme=radical"
                 alt="sharun266's GitHub stats"
               />
@@ -73,7 +74,7 @@ export default function GitHubCalender1() {
         </Flex>
 
         {/* https://github-readme-stats.vercel.app/api/top-langs/?username=sharun266&theme=radical */}
-        <Box w={["100%", "100%", "90%"]} m="auto" mt="5%">
+        <Box data-aos="zoom-in" w={["100%", "100%", "90%"]} m="auto" mt="5%">
           <a href="https://github.com/SHARUN266">
             {" "}
             <Image
@@ -87,7 +88,7 @@ export default function GitHubCalender1() {
   bgClip='text'
   fontSize={['2xl','4xl','6xl']}
   fontWeight='extrabold'>GitHub Contributions</Heading>
-        <Box display={'flex'}  alignItems='center' justifyContent={'center'} w={["100%", "100%", "100%"]} m="auto" mt="5%">
+        <Box data-aos="zoom-in" display={'flex'}  alignItems='center' justifyContent={'center'} w={["100%", "100%", "100%"]} m="auto" mt="5%">
         <GitHubCalendar  blockSize={18} blockMargin={5}   style={{width:"100%"}} 
      username="sharun266"  />
         </Box>

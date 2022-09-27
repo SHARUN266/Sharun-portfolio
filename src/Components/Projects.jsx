@@ -65,6 +65,7 @@ export default function CallToActionWithVideo() {
 
    
       <Stack
+      key={elem.id}
         align={"center"}
         spacing={{ base: 8, md: 10 }}
         py={{ base: 20, md: 28 }}
@@ -73,7 +74,7 @@ export default function CallToActionWithVideo() {
       >
         <Stack textAlign={"justify"}  flex={1} spacing={{ base: 5, md: 10 }}>
           <Heading
-           data-aos="fade-right"
+           
             lineHeight={1.1}
             fontWeight={600}
             fontSize={{ base: "3xl", sm: "4xl", lg: "6xl" }}
@@ -108,7 +109,7 @@ export default function CallToActionWithVideo() {
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}
-            data-aos="fade-right"
+            
           >
             <Link href={elem.liveLink} target="_blank" rel="noreferrer noopener" >
               <Button
@@ -155,7 +156,8 @@ export default function CallToActionWithVideo() {
             zIndex={-1}
             color={"#e8f1ff"}
           />
-          <Box data-aos="fade-left">
+          <Box data-aos="fade-up"
+     data-aos-duration="4000">
             <Image
               alt={"Hero Image"}
               fit={"cover"}

@@ -30,6 +30,7 @@ import {
       </Heading>
         <Flex align={'center'} justifyContent={'center'}>
           <Box
+          data-aos="zoom-in"
             bg="#02054B"
             color="white"
             borderRadius="lg"

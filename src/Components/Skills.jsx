@@ -65,6 +65,7 @@ export default function Skills() {
       >
         {data.map((e) => (
           <Box
+          key={e.id}
             data-aos="zoom-in"
             h="120%"
             borderRadius={"lg"}
