@@ -19,7 +19,7 @@ function App() {
       <About/>
       <TechStack/>
       <Projects/> 
-        {/* fix */}
+     
       <GitHubCalender1/>
       <Contact/>
       <SharunFooter/>

@@ -17,6 +17,7 @@ import laptop from "../Images/laptop-png.png";
 import project from "../Images/project.png";
 import AirGarage from "../Images/AirGarageGif.gif";
 import Netflix from "../Images/Netflix.gif"
+import GetHarvest from "../Images/GetGif.gif"
 export default function CallToActionWithVideo() {
   var projectData=[
       {
@@ -39,7 +40,7 @@ export default function CallToActionWithVideo() {
          discription:`AirGarage was founded in 2017 when Chelsea, Scott, and Jonathon stumbled upon the inefficiencies in the parking industry while searching for cheaper university parking.`,
          strong:` I
          done this project indivisually during Masai Construck week`,
-         techUsed:"Reach | Chakra UI | Data-aos",
+         techUsed:"React | Chakra UI | Data-aos",
          liveLink:"https://the-great-sharun266-site.netlify.app",
          gitHubLink:"https://github.com/SHARUN266/judicious-loss-7894"
       },
@@ -51,7 +52,18 @@ export default function CallToActionWithVideo() {
         techUsed:"HTML | CSS | JavaScript",
         liveLink:"https://sprightly-bombolone-3e7ed9.netlify.app/",
         gitHubLink:"https://github.com/SHARUN266/NetflixClone"
-      }
+      },
+      
+        {
+          img:GetHarvest,
+          title:"Get Harvest-clone",
+          discription:`This is a 5 people of group project.Which is a clone of Get Harvest platform that platform provide to online invoicing, project tracking and time tracker.`,
+          strong:"We are compliting 85% cloning of this website in 5 days, I enjoy this project with the team and learning from them.",
+          techUsed:"React | NodeJS | Redux | Google Firebase",
+          liveLink:"https://sharun266.github.io/Sharun-portfolio/",
+          gitHubLink:"https://github.com/SHARUN266/Get-Harvest-clone"
+        }
+      
 
 
   ]
