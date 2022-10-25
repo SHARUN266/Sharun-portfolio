@@ -34,7 +34,7 @@
     ),
     url(../src/Components/common-bg.svg);
   background-position: center;
-
+   background-attachment: fixed;
   position: relative;
 }
 .headingPrimary {

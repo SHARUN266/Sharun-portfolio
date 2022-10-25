@@ -13,11 +13,14 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-
+import resume from "./Sharunresume.pdf"
 // import  {logo1}  from "./elements";
 import logo from '../Images/photostudio-3-designify.png';
 
 import { NavHashLink as Link } from "react-router-hash-link";
+import ClickMe from "./Button";
+import ButtonForNav from "./DownloadButton/buttonForNav";
+
 const Links = [
   {
     link:"#homeHero",
@@ -44,7 +47,8 @@ const Links = [
     link:"#contact",
     text:"CONTACT"
   }
-
+  
+  
 ];
 
 export default function Simple() {
@@ -88,6 +92,7 @@ export default function Simple() {
                  
                 smooth to={link.link} key={link+i}>{link.text}</Link>
               ))}
+             <ButtonForNav/>
             </HStack>
           </HStack>
           <IconButton
@@ -107,6 +112,7 @@ export default function Simple() {
                 key={link.id}
                  smooth to={link.link}   >{link.text}</Link>
               ))}
+           
             </Stack>
           </Box>
         ) : null}
