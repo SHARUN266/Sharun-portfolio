@@ -79,7 +79,8 @@ export default function GitHubCalender1() {
             {" "}
             <Image
               h={["100%", "100%", "9%"]}
-              w="100%"
+              w="80%"
+              m="auto"
               src="https://github-readme-stats.vercel.app/api?username=SHARUN266&theme=radical&show_icons=true&hide=&count_private=true&hide_border=true&show_icons=true"
             />{" "}
           </a>
