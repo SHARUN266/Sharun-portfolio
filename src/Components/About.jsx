@@ -6,7 +6,7 @@ export default function About() {
   return (
     <Box 
     id="about" 
-    h={["auto", "auto", "80vh"]} 
+    h={["auto", "auto","auto", "80vh"]} 
     p="1rem" 
     
     alignItems={"center"}

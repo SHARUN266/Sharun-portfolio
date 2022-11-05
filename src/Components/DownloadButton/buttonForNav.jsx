@@ -1,14 +1,22 @@
 import React from "react";
-import "./button.css";
-import resume from "../Sharunresume.pdf"
-import { Button } from "@chakra-ui/react";
+
+import resume from "../Sharunresume.pdf";
+import { Button, useToast } from "@chakra-ui/react";
 
 function ButtonForNav() {
+
   return (
-    <div class="btn">
-      <a  href={resume} target="_blank"   download="Sharun">
+    <div>
+       <a  href={resume} target="_blank"   download="Sharun">
+        <Button
          
-        <Button    class="mybtn" >Resume</Button>
+          
+          variant={"outline"}
+          id="text1"
+          _hover={{ bg: "#0606efce", color: "#fff" }}
+        >
+          Resume
+        </Button>
       </a>
     </div>
   );

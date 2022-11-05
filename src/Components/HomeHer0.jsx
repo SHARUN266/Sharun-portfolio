@@ -12,7 +12,7 @@ export default function HomeHero() {
       data-aos="zoom-in"
       id="homeHero"
       p="2rem"
-      h={["auto", "auto", "95vh"]}
+      h={["auto", "auto","auto", "95vh"]}
       display={"flex"}
       alignItems="center"
     >
@@ -25,7 +25,7 @@ export default function HomeHero() {
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        <Box  data-aos="fade-right"
+        <Box   data-aos="fade-right"
           data-aos-duration="3000" p="2rem" textAlign={"justify"}  >
           <Box
             data-aos="fade-right"
@@ -34,7 +34,7 @@ export default function HomeHero() {
             mt="1"
             fontWeight="700"
             as="h1"
-            fontSize={["2xl", "4xl", "6xl"]}
+            fontSize={["2xl", "4xl","4xl", "6xl"]}
             letterSpacing={2}
             
           >
@@ -48,7 +48,7 @@ export default function HomeHero() {
             textShadow={"-2px -2px 11px rgba(163, 156, 150, 0.83);"}
             fontWeight="extrabold"
             fontFamily={" Roboto Mono,monospace;"}
-            fontSize={["4xl", "6xl", "8xl"]}
+            fontSize={["4xl", "6xl","6xl", "8xl"]}
           >
             sharun
           </Heading>
@@ -69,11 +69,12 @@ export default function HomeHero() {
           data-aos="fade-right"
           data-aos-duration="3000"
           mt="5%"
+         
           w={["90%", "90%", "40%"]}
         >
           <Image
             borderRadius={"lg"}
-            h="80%"
+            h="100%"
             w="100%"
             src={logo}
             alt="my-hero"

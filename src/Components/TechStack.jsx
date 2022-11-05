@@ -5,7 +5,7 @@ import Skills from "./Skills";
 
 export default function TechStack() {
   return (
-    <Box id="techstacks" p="2rem" h={["auto", "auto", "100vh"]}>
+    <Box id="techstacks" p="2rem" h={["auto", "auto","auto", "100vh"]}>
       <Heading className="heading-sec__main" mt="5%">
         {" "}
         tech stacks{" "}

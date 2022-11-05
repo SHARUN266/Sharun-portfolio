@@ -20,7 +20,7 @@ export default function GitHubCalender1() {
         gap={'2rem'}
         alignItems="center"
         justifyContent={"space-between"}
-        direction={["column", "column", "row"]}
+        direction={["column", "column","column", "row"]}
       >
         {
           data.map((elem)=>(

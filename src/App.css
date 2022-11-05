@@ -22,6 +22,20 @@
   transition: color 0.3s;
   cursor: pointer;
 }
+#text1 {
+  display: inline-block;
+  font-size: 1rem;
+  color: #0606efce;
+  border: 1px solid #0606efce;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+#text1:hover {
+  color: #f8f8f8;
+}
 #text:hover {
   color: #0062b9;
 }
