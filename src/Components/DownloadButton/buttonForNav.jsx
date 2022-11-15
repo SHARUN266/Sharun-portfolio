@@ -7,7 +7,7 @@ function ButtonForNav() {
 
   return (
     <div>
-       <a  href={resume} target="_blank"   download="Sharun">
+       <a  href={resume} target="_blank"   download="Sharun-Resume">
         <Button
          
           

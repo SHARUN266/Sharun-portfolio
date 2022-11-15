@@ -12,7 +12,7 @@ import Resume from './Sharunresume.pdf'
 export default function ClickMe() {
   return (
     <Flex mt={["3%", "4%"]}>
-      <a  href={Resume} target="_blank"   download="Sharun">
+      <a  href={Resume} target="_blank"   download="Sharun-Resume">
       <Button
                 shadow={"lg"}
                 rounded={"full"}
