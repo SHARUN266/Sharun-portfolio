@@ -18,6 +18,7 @@ import project from "../Images/project.png";
 import AirGarage from "../Images/AirGarageGif.gif";
 import Netflix from "../Images/Netflix.gif"
 import GetHarvest from "../Images/GetGif.gif"
+import violentHope from "../Images/ViolentGif.gif"
 export default function CallToActionWithVideo() {
   var projectData=[
       {
@@ -62,6 +63,22 @@ export default function CallToActionWithVideo() {
           techUsed:"React | NodeJS | Redux | Google Firebase",
           liveLink:"https://sharun266.github.io/Sharun-portfolio/",
           gitHubLink:"https://github.com/SHARUN266/Get-Harvest-clone"
+        },
+
+        {
+          img:violentHope,
+          title:"Violent Hope",
+          discription:`This is a full-stack shopping application built using MERN stack by a team of 5. The application loads products from a MongoDB database and displays them using React and Chakra UI ( front-end ), NodeJs and ExpressJS ( back-end ).
+
+          Users can click on any product to get more information about it and add it to their shopping cart. One can then proceed to payments page, hence completing the flow of the website.
+          
+          User authentication and product fetching is done using REST API. The cart ( products and their quantity ) is also simultaneously updated in the backend.`,
+          strong:` My 
+          contribution in this project to make responsive landing page and Sign Up/Sign In page with MongoDB and JWT.`,
+          techUsed:"React | Chakra UI | NodeJS | MongoDB",
+
+          liveLink:"https://violent-hope.netlify.app/",
+          gitHubLink:"https://github.com/SHARUN266/violent-hope-9407"
         }
       
 
