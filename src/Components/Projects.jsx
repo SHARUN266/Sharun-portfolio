@@ -48,8 +48,8 @@ export default function CallToActionWithVideo() {
       {
         img:Netflix,
         title:"Netflix-clone",
-        discription:`I have done this project individually and build the clone of a very popular Netflix online platfor where user can entertain them self by watching various kind of videos. Have fun after the subscription . I hope you will enjoy the reading….`,
-        strong:"I done this project when one-month of web-development journey is completed.",
+        discription:`I have done this project individually and try the clone UI of a very popular Netflix online platform where user can entertain them self by watching various kind of videos. Have fun after the subscription. `,
+        strong:"I done this project when one month of web-development journey is completed.",
         techUsed:"HTML | CSS | JavaScript",
         liveLink:"https://sprightly-bombolone-3e7ed9.netlify.app/",
         gitHubLink:"https://github.com/SHARUN266/NetflixClone"
@@ -59,7 +59,7 @@ export default function CallToActionWithVideo() {
           img:GetHarvest,
           title:"Get Harvest-clone",
           discription:`This is a 5 people of group project.Which is a clone of Get Harvest platform that platform provide to online invoicing, project tracking and time tracker.`,
-          strong:"We are compliting 85% cloning of this website in 5 days, I enjoy this project with the team and learning from them.",
+          strong:"We had try to clone almost functionality in 5 days, I enjoy this project with the team and learning from them.",
           techUsed:"React | NodeJS | Redux | Google Firebase",
           liveLink:"https://sharun266.github.io/Sharun-portfolio/",
           gitHubLink:"https://github.com/SHARUN266/Get-Harvest-clone"
@@ -127,9 +127,7 @@ export default function CallToActionWithVideo() {
               {elem.title}
             </Text>
             <br />
-            {/* <Text as={'span'} color={'red.400'}>
-                use everywhere!
-              </Text> */}
+          
           </Heading>
           <Text color={"gray.500"}  data-aos="zoom-in">{elem.discription}
             <strong>{elem.strong} </strong>
