@@ -1,7 +1,7 @@
 import { Button, Flex } from "@chakra-ui/react";
 
 import { GrDocumentPdf } from "react-icons/gr";
-import Resume from "./Sharunresume.pdf";
+import Resume from "./Config/Sharunresume.pdf";
 export default function ClickMe() {
   return (
     <Flex mt={["3%", "4%"]}>

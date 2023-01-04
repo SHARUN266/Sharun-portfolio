@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../Sharunresume.pdf";
+import resume from "../Config/Sharunresume.pdf";
 import { Button, useToast } from "@chakra-ui/react";
 
 function ButtonForNav() {

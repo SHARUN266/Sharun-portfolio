@@ -46,7 +46,7 @@
     rgba(18, 101, 173, 0.97),
     rgba(10, 92, 164, 0.45)
     ),
-    url(../src/Components/common-bg.svg);
+    url(../src/Components/Config/common-bg.svg);
   background-position: center;
    background-attachment: fixed;
   position: relative;
@@ -179,7 +179,7 @@
       rgba(11, 20, 54, 0.8),
       rgba(73, 20, 195, 0.9)
     ),
-    url("./Components/common-bg.svg") center no-repeat;
+    url("../src/Components/Config/common-bg.svg") center no-repeat;
   background-size: cover;
 }
 

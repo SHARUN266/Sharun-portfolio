@@ -4,18 +4,23 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import ClickMe from "./Button";
 import logo from "../Images/gif2.gif";
-
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import { particlesOptions } from "./Config/ParticleConfig";
 export default function HomeHero() {
+  const particlesInit = (engine) => {
+    loadFull(engine);
+  };
   return (
     <Box
-    
       data-aos="zoom-in"
       id="homeHero"
       p="2rem"
-      h={["auto", "auto","auto", "95vh"]}
+      h={["auto", "auto", "auto", "95vh"]}
       display={"flex"}
       alignItems="center"
     >
+      <Particles  init={particlesInit} options={particlesOptions} />
       <Flex
         className="headingPrimary"
         fontSize={["2rem", "4rem"]}
@@ -25,8 +30,12 @@ export default function HomeHero() {
         justifyContent={"space-between"}
         direction={["column", "column", "row"]}
       >
-        <Box   data-aos="fade-right"
-          data-aos-duration="3000" p="2rem" textAlign={"justify"}  >
+        <Box
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          p="2rem"
+          textAlign={"justify"}
+        >
           <Box
             data-aos="fade-right"
             data-aos-offset="300"
@@ -34,9 +43,8 @@ export default function HomeHero() {
             mt="1"
             fontWeight="700"
             as="h1"
-            fontSize={["2xl", "4xl","4xl", "6xl"]}
+            fontSize={["2xl", "4xl", "4xl", "6xl"]}
             letterSpacing={2}
-            
           >
             Hi,My name is
           </Box>
@@ -48,28 +56,27 @@ export default function HomeHero() {
             textShadow={"-2px -2px 11px rgba(163, 156, 150, 0.83);"}
             fontWeight="extrabold"
             fontFamily={" Roboto Mono,monospace;"}
-            fontSize={["4xl", "6xl","6xl", "8xl"]}
+            fontSize={["4xl", "6xl", "6xl", "8xl"]}
           >
             sharun
           </Heading>
 
-          <Box fontSize={["sm","sm","xl","2xl"]} letterSpacing={3}>
+          <Box fontSize={["sm", "sm", "xl", "2xl"]} letterSpacing={3}>
             <Typewriter
               options={{
                 strings: ["Full Stack Developer", "MERN stack developer"],
                 autoStart: true,
-                smooth:true,
+                smooth: true,
                 loop: true,
               }}
             />
           </Box>
-         <ClickMe/>
+          <ClickMe />
         </Box>
         <Box
           data-aos="fade-right"
           data-aos-duration="3000"
           mt="5%"
-         
           w={["90%", "90%", "40%"]}
         >
           <Image

@@ -17,7 +17,7 @@ import {
   PopoverBody,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import resume from "./Sharunresume.pdf";
+import resume from "./Config/Sharunresume.pdf";
 
 import logo from "../Images/photostudio-3-designify.png";
 
