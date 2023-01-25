@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sharun-portfolio/static/css/main.b886fc84.css",
-    "main.js": "/Sharun-portfolio/static/js/main.3e2a5efa.js",
+    "main.js": "/Sharun-portfolio/static/js/main.0ea3d5bd.js",
     "static/js/787.128fc6e9.chunk.js": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Netflix.gif": "/Sharun-portfolio/static/media/Netflix.fcd9847b3c75e4603d7b.gif",
     "static/media/AirGarageGif.gif": "/Sharun-portfolio/static/media/AirGarageGif.89e72175e53ff76611ce.gif",
@@ -14,9 +14,8 @@
     "static/media/photostudio-3-designify.png": "/Sharun-portfolio/static/media/photostudio-3-designify.dba6c3ee90b82303c5c8.png",
     "static/media/bg-png.png": "/Sharun-portfolio/static/media/bg-png.e47966de4cd24674a6cd.png",
     "static/media/RoundeImage.png": "/Sharun-portfolio/static/media/RoundeImage.3e450d127caf27f706df.png",
-    "static/media/Sharunresume.pdf": "/Sharun-portfolio/static/media/Sharunresume.60f4ce11b0074dfaa090.pdf",
+    "static/media/Sharunresume.pdf": "/Sharun-portfolio/static/media/Sharunresume.47f61c5fb8444a483043.pdf",
     "static/media/chakraui.5ff1881b.png": "/Sharun-portfolio/static/media/chakraui.5ff1881b.15320604467d004df871.png",
-    "static/media/imgGitHub.webp": "/Sharun-portfolio/static/media/imgGitHub.c73800ac4097741a2607.webp",
     "static/media/mongoose.20aad1bc.png": "/Sharun-portfolio/static/media/mongoose.20aad1bc.51275a001caf5e6e30d4.png",
     "static/media/mongodb.d9f2bf70.svg": "/Sharun-portfolio/static/media/mongodb.d9f2bf70.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/common-bg.svg": "/Sharun-portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
@@ -32,11 +31,11 @@
     "static/media/HTML.svg": "/Sharun-portfolio/static/media/HTML.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/npm.9013d7e4.svg": "/Sharun-portfolio/static/media/npm.9013d7e4.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.b886fc84.css.map": "/Sharun-portfolio/static/css/main.b886fc84.css.map",
-    "main.3e2a5efa.js.map": "/Sharun-portfolio/static/js/main.3e2a5efa.js.map",
+    "main.0ea3d5bd.js.map": "/Sharun-portfolio/static/js/main.0ea3d5bd.js.map",
     "787.128fc6e9.chunk.js.map": "/Sharun-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b886fc84.css",
-    "static/js/main.3e2a5efa.js"
+    "static/js/main.0ea3d5bd.js"
   ]
 }
